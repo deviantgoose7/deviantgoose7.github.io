@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="stylesheet.css">
+		<script type="text/javascript" src="data.js"></script>
+		<script type="text/javascript" src="generator.js"></script>
+	</head>
+	<body>
+		<button class="button" onclick="nextPrompt()">Next</button>
+		<p class = "prompt" id = "content">...</p>
+		<input type="text" id="answer-text" class="submit" placeholder="Insert Answer..." onkeydown="if (event.key == 'Enter') {submit(this)}">
+	</body>
+</html>
