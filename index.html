@@ -9,6 +9,11 @@
 		<script type="text/javascript" src="generator.js"></script>
 	</head>
 	<body>
+		<label class="switch">
+			<input type="checkbox" onclick="toggleOrdered()">
+			<span class="slider round"></span>
+		</label>
+		<h1 class="toggle">Toggle Ordered/Random</h1>
 		<button class="button" onclick="nextPrompt()">Next</button>
 		<p class = "prompt" id = "content">Press Next to begin. You can always press Next to skip a tough question.</p>
 		<input type="text" id="answer-text" class="submit" placeholder="Insert Answer..." onkeydown="if (event.key == 'Enter') {submit(this)}">
